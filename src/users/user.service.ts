@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { User } from './data/user.dto';
+
 @Injectable()
 export class UserService {
   public user: User[] = [];
